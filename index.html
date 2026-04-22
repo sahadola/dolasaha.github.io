@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Dola Saha</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <!-- Navigation -->
+      <nav>
+         <h2>Dola Saha</h2>
+         <ul class="nav-links" id="nav-links" >
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>
+         <button class="hamburger" id="hamburger">
+         <span></span>
+         <span></span>
+         <span></span>
+         </button>
+      </nav>
+      <!-- Hero Section -->
+      <div class="hero">
+         <h1>Dola Saha</h1>
+         <h2>SAP Senior Consultant | ABAP | Fiori | SAP BTP</h2>
+         <p>
+            10+ years of experience delivering scalable SAP solutions across S/4HANA systems —
+            specializing in ABAP, CDS, OData, and SAP Fiori.
+         </p>
+         <p>
+            Currently focused on SAP BTP and RAP, building modern, clean-core aligned applications
+            and evolving towards solution architecture roles.
+         </p>
+         <a href="#contact" class="btn">Get In Touch</a>
+      </div>
+      <!-- About Section -->
+      <div class="section reveal" id="about">
+         <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+               <div class="about-text">
+                  <p>
+                     I’m an SAP Senior Consultant with over 10 years of experience in building
+                     end-to-end SAP applications across S/4HANA landscapes.
+                  </p>
+                  <p>
+                     My expertise lies in ABAP development, CDS Views, and OData services,
+                     combined with modern SAP Fiori/UI5 applications to deliver intuitive
+                     and efficient user experiences.
+                  </p>
+                  <p>
+                     I have worked across Finance (Accounts Payable) and Warehouse Management,
+                     contributing to scalable solutions that improve performance and usability.
+                  </p>
+                  <p>
+                     Currently, I am expanding into SAP BTP and RAP (RESTful ABAP Programming Model),
+                     with a strong focus on clean-core aligned development and cloud-ready architectures.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Skills Section -->
+      <div class="section reveal" id="skills">
+         <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-group">
+               <h3>SAP Core</h3>
+               <span class="tag">ABAP</span>
+               <span class="tag">CDS Views</span>
+               <span class="tag">OData</span>
+               <span class="tag">RAP (Learning)</span>
+               <span class="tag">S/4HANA</span>
+            </div>
+            <div class="skills-group">
+               <h3>Fiori & UI</h3>
+               <span class="tag">SAP UI5</span>
+               <span class="tag">Fiori Elements</span>
+               <span class="tag">JavaScript</span>
+            </div>
+            <div class="skills-group">
+               <h3>SAP BTP</h3>
+               <span class="tag">SAP BTP</span>
+               <span class="tag">Cloud Foundry</span>
+               <span class="tag">Authentication</span>
+            </div>
+            <div class="skills-group">
+               <h3>Functional</h3>
+               <span class="tag">Finance (AP)</span>
+               <span class="tag">Warehouse Management</span>
+            </div>
+         </div>
+      </div>
+      </div>
+      <!-- Certification Section -->
+      <div class="section reveal" id="certifications">
+         <div class="container">
+            <h2 class="section-title">Projects & Achievements</h2>
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+               <button class="filter-btn active" onclick="filterCards('all', this)">All</button>
+               <button class="filter-btn" onclick="filterCards('certifications', this)">Certifications</button>
+               <button class="filter-btn" onclick="filterCards('achievements', this)">Achievements</button>
+               <button class="filter-btn" onclick="filterCards('learning', this)">Currently Learning</button>
+            </div>
+            <!-- Cards Grid -->
+            <div class="cert-grid" id="cert-grid">
+            </div>
+         </div>
+      </div>
+      <!-- Experience Section -->
+      <div class="section reveal" id="experience">
+         <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div id="experience-container">
+               <p>
+                  SAP Senior Consultant with 10+ years of experience working on
+                  S/4HANA implementations, enhancements, and support projects.
+               </p>
+               <p>
+                  Experience includes end-to-end development, performance optimization,
+                  and collaboration with functional teams.
+               </p>
+            </div>
+         </div>
+      </div>
+      <!-- Contact Section -->
+      <div class="section reveal" id="contact">
+         <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-intro">I'm open to new opportunities and collaborations, or just a conversation about SAP and technology. Feel free to reach out!</p>
+            <div class="contact-cards">
+               <a href="https://www.linkedin.com/in/dola-saha-76a209a5/" target="_blank" class="contact-card">
+               <span class="contact-icon">in</span>
+               <span class="contact-label">LinkedIn</span>
+               <span class="contact-value">linkedin.com</span>
+               </a>
+               <a href="https://github.com/rsirri" target="_blank" class="contact-card">
+               <span class="contact-icon">⌥</span>
+               <span class="contact-label">GitHub</span>
+               <span class="contact-value">github.com/sahadola</span>
+               </a>
+            </div>
+            <!-- Footer -->
+            <footer>
+               <p>Copyright - Dola Saha</p>
+               <p class="footer-sub">SAP Technical Architect | BTP | ABAP on HANA| RAP | Fiori | UI5 | OData</p>
+            </footer>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>

@@ -1,9 +1,3 @@
----
-
-layout: home
-title: Home
------------
-
 # Hi, I’m Dola Saha 👋
 
 **SAP Senior Consultant | ABAP | Fiori/UI5 | SAP BTP**
